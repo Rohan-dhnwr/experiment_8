@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #007bff, #00c6ff);
+  color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+#message {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 28px;
+}
+
+.timer div {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+small {
+  display: block;
+  font-size: 14px;
+  margin-top: 5px;
+  color: #e0e0e0;
+}
